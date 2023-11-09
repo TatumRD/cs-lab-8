@@ -1,0 +1,26 @@
+import matplotlib.pyplot as plt
+# Data
+x1 = [1,2,3]
+y1 = [2,4,8]
+
+#Plot x1
+plt.plot(x1,y1, label="Tatum")
+
+# Data #2
+x2 = [1,2,3]
+y2 = [1,3,6]
+
+#Plot #2
+plt.plot(x2,y2, label="Brother")
+
+#Label axis
+plt.xlabel("Years")
+plt.ylabel("Money in 100s")
+
+#Give it a title
+plt.title("Total Revenue")
+#Show legend
+
+plt.legend()
+
+plt.show()
